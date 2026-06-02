@@ -10,7 +10,6 @@ PASSWORD = os.getenv("NEO4J_PASSWORD")
 
 
 # 1. 드라이버 생성 (VM IP와 Bolt 포트 7687 사용)
-URI = "neo4j://20.196.153.46:7687"
 AUTH = (USER, PASSWORD) # Neo4j 계정 정보
 
 def create_and_read_data():
