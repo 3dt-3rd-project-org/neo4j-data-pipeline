@@ -1,0 +1,225 @@
+{
+  "status": "success",
+  "message": "openai_extract completed",
+  "books_id": 1,
+  "chapter_count": 1,
+  "results": [
+    {
+      "chapter_id": 3,
+      "chapter_title": "제2장 카인",
+      "result": {
+        "characters": [
+          {
+            "name": "싱클레어",
+            "role": "주인공",
+            "description": "가정과 학교 사이에서 갈등을 겪는 소년."
+          },
+          {
+            "name": "막스 데미안",
+            "role": "전학생",
+            "description": "부유한 미망인의 아들로 전학 온 나이 많은 소년."
+          },
+          {
+            "name": "프랭크 크로머",
+            "role": "학생",
+            "description": "싱클레어에게 돈과 요구를 강요하던 동네 소년."
+          },
+          {
+            "name": "아버지",
+            "role": "아버지",
+            "description": "싱클레어의 아버지로 집안의 가장."
+          },
+          {
+            "name": "어머니",
+            "role": "어머니",
+            "description": "싱클레어의 어머니로 집에서 그를 돌보는 사람."
+          }
+        ],
+        "events": [
+          {
+            "short_title": "카인 해석",
+            "summary": "수업 후 길에서 데미안이 싱클레어와 인사를 나누고 집 문장의 이야기를 한 뒤, 카인과 아벨 이야기의 다른 해석을 제시하며 길게 대화했다.",
+            "evidence": "“이마에 표식을 지닌 카인 이야기였지, 그렇지?”",
+            "start_paragraph_order": 4,
+            "end_paragraph_order": 21,
+            "characters": [
+              {
+                "name": "싱클레어",
+                "role_in_event": "대화자"
+              },
+              {
+                "name": "막스 데미안",
+                "role_in_event": "대화자"
+              }
+            ]
+          },
+          {
+            "short_title": "누나 요구",
+            "summary": "크로머가 비 오는 날 싱클레어를 불러내어 다음에는 큰누나를 데려오라고 요구했고 싱클레어는 거절했다.",
+            "evidence": "“다음에는 네 누나도 데려와, 큰 누나 말이야.”",
+            "start_paragraph_order": 34,
+            "end_paragraph_order": 44,
+            "characters": [
+              {
+                "name": "싱클레어",
+                "role_in_event": "피해자"
+              },
+              {
+                "name": "프랭크 크로머",
+                "role_in_event": "협박자"
+              }
+            ]
+          },
+          {
+            "short_title": "비 속의 만남",
+            "summary": "데미안이 빗속에서 싱클레어를 붙잡고 두려움과 비밀에 대해 말하며 마음 읽기처럼 대화를 이끌어 크로머의 이름을 확인했다.",
+            "evidence": "“방금 가버린 그 소년의 이름을 아니? … ‘프랭크 크로머 말이야?’”",
+            "start_paragraph_order": 45,
+            "end_paragraph_order": 90,
+            "characters": [
+              {
+                "name": "싱클레어",
+                "role_in_event": "대상"
+              },
+              {
+                "name": "막스 데미안",
+                "role_in_event": "대화자"
+              }
+            ]
+          },
+          {
+            "short_title": "크로머 철수",
+            "summary": "며칠 뒤 크로머의 휘파람 소리가 사라졌고 길에서 마주치자 크로머가 싱클레어를 피했으며, 데미안은 크로머와 이야기해 싱클레어를 내버려 두게 했다고 말했다.",
+            "evidence": "“그는 떠났고, 돌아오지 않았다!”",
+            "start_paragraph_order": 95,
+            "end_paragraph_order": 106,
+            "characters": [
+              {
+                "name": "싱클레어",
+                "role_in_event": "당사자"
+              },
+              {
+                "name": "막스 데미안",
+                "role_in_event": "조력자"
+              },
+              {
+                "name": "프랭크 크로머",
+                "role_in_event": "협박자"
+              }
+            ]
+          },
+          {
+            "short_title": "싱클레어의 고백",
+            "summary": "싱클레어가 어머니와 아버지에게 저금통과 절도 사실을 고백했고, 부모는 그를 받아들이며 집안에서 화해가 이루어졌다.",
+            "evidence": "“나는 어머니께 가서… 작은 저금통을 보여드렸고… 말씀드렸다.”",
+            "start_paragraph_order": 111,
+            "end_paragraph_order": 114,
+            "characters": [
+              {
+                "name": "싱클레어",
+                "role_in_event": "고백자"
+              },
+              {
+                "name": "어머니",
+                "role_in_event": "부모"
+              },
+              {
+                "name": "아버지",
+                "role_in_event": "부모"
+              }
+            ]
+          },
+          {
+            "short_title": "카인파 질문",
+            "summary": "몇 달 후 산책 중 싱클레어가 아버지에게 카인이 옳다고 말하는 사람들이 있다는 이야기를 물었고, 아버지는 카인파 이단을 설명하며 주의를 주었다.",
+            "evidence": "“카인파… 이 이단은 인류에게서 오래전에 사라졌으며… 이러한 생각에 내 주의를 기울이지 말라.”",
+            "start_paragraph_order": 116,
+            "end_paragraph_order": 117,
+            "characters": [
+              {
+                "name": "싱클레어",
+                "role_in_event": "질문자"
+              },
+              {
+                "name": "아버지",
+                "role_in_event": "설명자"
+              }
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "source": "싱클레어",
+            "target": "막스 데미안",
+            "relation": "경계",
+            "change_summary": "처음에는 데미안이 낯설고 강해 보여 싱클레어가 두려움과 주저함을 보였다.",
+            "evidence": "“그가 내 쪽을 쳐다보는 순간 나는 다소 겁에 질려 시선을 돌렸다.”",
+            "related_event_short_title": "카인 해석",
+            "start_paragraph_order": 2,
+            "end_paragraph_order": 21
+          },
+          {
+            "source": "싱클레어",
+            "target": "막스 데미안",
+            "relation": "신뢰",
+            "change_summary": "데미안이 개입해 크로머가 물러나자 싱클레어는 데미안을 믿고 안도했다.",
+            "evidence": "“네가 해낸 거야? … 그는 내 근처에 오지도 않았어.”",
+            "related_event_short_title": "크로머 철수",
+            "start_paragraph_order": 95,
+            "end_paragraph_order": 106
+          },
+          {
+            "source": "싱클레어",
+            "target": "막스 데미안",
+            "relation": "거리두기",
+            "change_summary": "집으로 돌아와 부모와 화해한 뒤 싱클레어는 데미안과의 관계를 의도적으로 멀리했다.",
+            "evidence": "“그가 기적을 행하자마자 구원자를 제쳐두었다.”",
+            "related_event_short_title": "싱클레어의 고백",
+            "start_paragraph_order": 107,
+            "end_paragraph_order": 115
+          },
+          {
+            "source": "싱클레어",
+            "target": "프랭크 크로머",
+            "relation": "협박",
+            "change_summary": "크로머가 돈과 누나를 요구하며 싱클레어를 계속 압박했다.",
+            "evidence": "“다음에는 네 누나도 데려와… 네 누나를 만나고 싶어.”",
+            "related_event_short_title": "누나 요구",
+            "start_paragraph_order": 34,
+            "end_paragraph_order": 44
+          },
+          {
+            "source": "싱클레어",
+            "target": "프랭크 크로머",
+            "relation": "단절",
+            "change_summary": "데미안의 개입 후 크로머가 싱클레어를 피하며 관계가 끊겼다.",
+            "evidence": "“그는 떠났고, 돌아오지 않았다! … 나를 피하기 위해… 돌아섰다.”",
+            "related_event_short_title": "크로머 철수",
+            "start_paragraph_order": 95,
+            "end_paragraph_order": 106
+          },
+          {
+            "source": "싱클레어",
+            "target": "어머니",
+            "relation": "화해",
+            "change_summary": "싱클레어가 고백하자 어머니가 받아들이며 집에서 화해가 이루어졌다.",
+            "evidence": "“그녀는 내가 치유되었고, 그녀에게 돌아왔다는 것을 느꼈다.”",
+            "related_event_short_title": "싱클레어의 고백",
+            "start_paragraph_order": 111,
+            "end_paragraph_order": 114
+          },
+          {
+            "source": "싱클레어",
+            "target": "아버지",
+            "relation": "화해",
+            "change_summary": "고백 후 아버지가 머리를 쓰다듬고 안도하며 가족 내 신뢰가 회복되었다.",
+            "evidence": "“부모님 두 분 다 내 머리를 쓰다듬으시고… 깊은 숨을 내쉬셨다.”",
+            "related_event_short_title": "싱클레어의 고백",
+            "start_paragraph_order": 111,
+            "end_paragraph_order": 114
+          }
+        ]
+      }
+    }
+  ]
+}
