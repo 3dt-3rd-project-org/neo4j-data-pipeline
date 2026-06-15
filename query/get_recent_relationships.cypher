@@ -20,6 +20,6 @@ RETURN src.character_name AS src,
        tgt.character_name AS tgt,
        latest_r.new_relation AS rel,
        latest_r.change_reason AS reason,
-       latest_r.chapter_id AS chapter,
+       latest_r.character_order AS chapter,
        latest_r.start_paragraph_order AS para
 ORDER BY toInteger(chapter) ASC, toInteger(para) ASC;
